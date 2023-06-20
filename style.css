@@ -1,0 +1,62 @@
+body 
+{
+    background-color: rgb(196, 172, 245);
+
+}
+
+h1 
+{
+    color: rgb(234, 0, 255);
+    background-color: snow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#show_sketch
+{
+float: right;
+}
+
+canvas
+{
+    border: 5px white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+p 
+{
+    padding-top: 10px;
+    font-size: 25px;
+    color: snow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 80px rgb(5, 105, 236);}
+     to {box-shadow: 1px 1px 80px white;}
+}
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+
+  #score 
+  {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  #time 
+  {
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+  }
